@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Triangulo.css">
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <label for="Lado 1">Ingrese el valor del lado 1</label>
+            <input id="l1" type="number" placeholder="Ingrese el lado 1" onblur="captural1()"> <br>
+            <label for="lado 2">Ingrese el valor del lado 2</label>
+            <input id="l2" type="number" placeholder="Ingrese el lado 2" onblur="captural2()">  <br>
+            <label for="lado 3"> Ingrese el valor del lado 3</label>
+            <input id="l3" type="text" placeholder="Ingrese el lado 3" onblur="captural3()"> <br>
+
+            <button type="button" value="Calcular" name="" id="" onclick="area_semiperimetro()">Calcular
+            <button type="button" value="Borrar Historial" onclick="erase()">Borrar Historial
+           
+        </fieldset>
+
+        <div id="resultado">
+            <h2></h2>
+        </div>
+
+    </form>
+    <script src="Triangulo.js"></script>
+</body>
+</html>
